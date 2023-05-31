@@ -21,7 +21,7 @@ strongest overall model in this task.
 $$\huge {\color{green}✓} = \text{MBC model} \quad\quad {\color{red}✗} = \text{non-MBC model}$$
 </p>
 
-## UMBC $\huge {\color{green}✓}$
+## UMBC (with Set Transformer) $\huge {\color{green}✓}$
 
 <span>
 <img alt="UMBC Single Point Stream" src="./example-gifs/animation-single_point_stream-SSEUMBC.gif" width="200px">
@@ -40,11 +40,11 @@ $$\huge {\color{green}✓} = \text{MBC model} \quad\quad {\color{red}✗} = \tex
 </span>
 
 
-## Experiment Commands and Datasets
+# Experiment Commands and Datasets
 
 Individual experiment code can be found in the respective {camelyon, celeba, mvn, and text} directories
 
-#### Celeba
+### Celeba
 
 [Dataset can be found here](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
@@ -53,7 +53,7 @@ cd celeba
 bash run.sh "GPU" 100 umbc 128 true [train|test]
 ```
 
-#### Camelyon16
+### Camelyon16
 
 [Dataset can be found here in an S3 bucket](https://camelyon17.grand-challenge.org/Data/). Our preprocessing code can be
 found in `data/preprocessing/camelyon.py`.
@@ -69,7 +69,7 @@ python trainer.py \
     --grad-set-size 256 
 ```
 
-#### Text
+### Text
 
 [Dataset download script [EURLEX57K] can be found here](https://github.com/amazon-science/efficient-longdoc-classification)
 
@@ -78,7 +78,7 @@ cd text
 bash run.sh "0" 100 true
 ```
 
-#### MVN
+### MVN
 
 MVN data is generated randomly every time the dataloader is asked for a new sample using the `sample()` method. Code can
 be found in `data/toy_classification.py`
