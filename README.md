@@ -1,7 +1,7 @@
 # Universal Mini-batch Consistent Set Encoders
 
 > [**Scalable Set Encoding with Universal Mini-Batch Consistency and Unbiased Full Set Gradient Approximation**](https://arxiv.org/abs/2208.12401) **ICML 2023** <br>
-> [Jeffrey Willette](https://github.com/jeffwillette)\*, [Seanie Lee](https://github.com/seanie12)\*, [Bruno Andreis](https://scholar.google.com/citations?user=WzQ_v4IAAAAJ&hl=en&oi=ao), [Kenji Kawaguchi](https://scholar.google.com/citations?user=aLl3rYoAAAAJ&hl=en), [Juho Lee](https://scholar.google.com/citations?user=Py4URJUAAAAJ&hl=en&oi=ao), [Sung Ju Hwang](http://www.sungjuhwang.com/)
+> [Jeffrey Willette](https://github.com/jeffwillette)\*, [Seanie Lee](https://scholar.google.com/citations?user=zrZu6GkAAAAJ&hl=en)\*, [Bruno Andreis](https://scholar.google.com/citations?user=WzQ_v4IAAAAJ&hl=en&oi=ao), [Kenji Kawaguchi](https://scholar.google.com/citations?user=aLl3rYoAAAAJ&hl=en), [Juho Lee](https://scholar.google.com/citations?user=Py4URJUAAAAJ&hl=en&oi=ao), [Sung Ju Hwang](http://www.sungjuhwang.com/)
 
 [arXiv](https://arxiv.org/abs/2208.12401)
 
